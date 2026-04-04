@@ -10,7 +10,6 @@ export function I18nProvider({ children }) {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('owenhvac-lang');
       if (saved && langs[saved]) return saved;
-      if (navigator.language?.startsWith('zh')) return 'zh';
     }
     return 'en';
   });
