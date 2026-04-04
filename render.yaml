@@ -1,0 +1,38 @@
+services:
+  # ── Frontend (Static Site — Free) ──
+  - type: web
+    name: owenhvac-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://owenhvac-api.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # ── Backend (Web Service — $7/mo) ──
+  - type: web
+    name: owenhvac-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ADMIN_SECRET
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: NOTIFY_EMAIL
+        sync: false
+      - key: FRONTEND_URL
+        value: https://owenhvac-frontend.onrender.com
