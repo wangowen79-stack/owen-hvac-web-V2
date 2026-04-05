@@ -24,8 +24,27 @@ export default function HomePage() {
         <div className="container" style={{ position: 'relative', width: '100%', padding: '60px 24px' }}>
           <div className="grid-2">
             <div>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(232,122,46,0.1)', padding: '8px 16px', borderRadius: 30, marginBottom: 24, border: '1px solid rgba(232,122,46,0.18)', animation: 'fadeUp 0.6s ease both' }}>
-                <Shield size={15} color="var(--orange)" />
+              {/* BBB Badge — prominent top-left */}
+              <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{
+                display: 'inline-flex', alignItems: 'center', gap: 12,
+                background: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(8px)',
+                padding: '10px 20px', borderRadius: 14,
+                border: '1px solid rgba(255,255,255,0.15)',
+                marginBottom: 16, animation: 'fadeUp 0.5s ease both',
+                textDecoration: 'none', transition: 'all 0.2s',
+              }}
+                onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.15)'; }}
+                onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; }}
+              >
+                <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB Accredited" style={{ width: 100, filter: 'brightness(1.6)' }} />
+                <div style={{ borderLeft: '1px solid rgba(255,255,255,0.15)', paddingLeft: 12 }}>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: 'white', lineHeight: 1.2 }}>A+ Rating</div>
+                  <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.55)' }}>BBB Accredited Business</div>
+                </div>
+              </a>
+
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(232,122,46,0.1)', padding: '8px 16px', borderRadius: 30, marginBottom: 24, border: '1px solid rgba(232,122,46,0.18)', animation: 'fadeUp 0.6s ease both', marginLeft: 0, display: 'block', width: 'fit-content' }}>
+                <Shield size={15} color="var(--orange)" style={{ display: 'inline', verticalAlign: 'middle', marginRight: 6 }} />
                 <span style={{ fontSize: 13, fontWeight: 500, color: 'var(--orange-light)', letterSpacing: '0.03em' }}>{t('hero.badge')}</span>
               </div>
 
@@ -56,9 +75,6 @@ export default function HomePage() {
                     <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', marginTop: 2 }}>{s.l}</div>
                   </div>
                 ))}
-                <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, padding: '8px 16px', background: 'rgba(255,255,255,0.06)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.08)', transition: 'all 0.2s' }}>
-                  <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB A+ Rating" style={{ width: 120, filter: 'brightness(1.5)' }} />
-                </a>
               </div>
             </div>
 

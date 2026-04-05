@@ -71,17 +71,9 @@ export default function Footer() {
                 <img key={i} src={p} alt="Partner" style={{ height: 36, opacity: 0.6, filter: 'brightness(1.3)' }} />
               ))}
             </div>
-            <div style={{
-              marginTop: 20, padding: '14px', borderRadius: 10,
-              background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)',
-              textAlign: 'center',
-            }}>
-              <img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://www.owenhvac.ca" alt="WeChat QR" style={{ width: 80, height: 80, margin: '0 auto 8px', borderRadius: 4 }} />
-              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)' }}>WeChat / 微信</div>
-            </div>
-            <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{ display: 'block', marginTop: 14, textAlign: 'center' }}>
-              <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB A+ Rating" style={{ width: 140, margin: '0 auto', filter: 'brightness(1.4)' }} />
-              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginTop: 4 }}>BBB Accredited — A+ Rating</div>
+            <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{ display: 'block', marginTop: 20, textAlign: 'center', padding: '16px', borderRadius: 10, background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)' }}>
+              <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB A+ Rating" style={{ width: 150, margin: '0 auto', filter: 'brightness(1.4)' }} />
+              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginTop: 6 }}>BBB Accredited — A+ Rating</div>
             </a>
           </div>
         </div>
