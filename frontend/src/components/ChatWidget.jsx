@@ -137,7 +137,7 @@ export default function ChatWidget() {
       <button onClick={() => setOpen(!open)} style={{
         position: 'fixed', bottom: 24, right: 24, width: 56, height: 56,
         borderRadius: '50%', border: 'none',
-        background: open ? 'var(--gray-600)' : 'linear-gradient(135deg, #2B8FD4, #1D72B0)',
+        background: open ? 'var(--gray-600)' : 'linear-gradient(135deg, #00A896, #008577)',
         color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center',
         boxShadow: '0 6px 24px rgba(0,0,0,0.15)',
         zIndex: 10000, transition: 'all 0.3s ease',

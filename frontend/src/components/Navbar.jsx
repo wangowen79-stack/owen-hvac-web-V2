@@ -33,7 +33,7 @@ export default function Navbar() {
       <div style={{
         maxWidth: 1200, margin: '0 auto', padding: '0 24px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        height: scrolled ? 76 : 90, transition: 'height 0.3s ease',
+        height: scrolled ? 84 : 100, transition: 'height 0.3s ease',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center' }} onClick={() => setMobileOpen(false)}>
@@ -49,7 +49,7 @@ export default function Navbar() {
             onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
           >
             <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ width: 64, filter: 'brightness(1.5)' }} />
-            <img src={IMG.partner3} alt="Certified Partner" style={{ width: 72, height: 72, objectFit: 'contain' }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ width: 104, height: 104, objectFit: 'contain' }} />
             <div style={{ borderLeft: '1px solid rgba(255,255,255,0.12)', paddingLeft: 10 }}>
               <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.55)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
@@ -60,7 +60,7 @@ export default function Navbar() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }} className="desktop-nav">
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} style={{
-              background: isActive(l.path) ? 'rgba(43,143,212,0.12)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(0,168,150,0.14)' : 'transparent',
               border: 'none', color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.8)',
               padding: '7px 14px', borderRadius: 8, fontSize: 14, fontWeight: 500,
               transition: 'all 0.2s',
@@ -99,7 +99,7 @@ export default function Navbar() {
         }}>
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} onClick={() => setMobileOpen(false)} style={{
-              background: isActive(l.path) ? 'rgba(43,143,212,0.1)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(0,168,150,0.1)' : 'transparent',
               color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.85)',
               padding: '12px 16px', borderRadius: 8, fontSize: 15, fontWeight: 500, display: 'block',
             }}>{t(`nav.${l.key}`)}</Link>

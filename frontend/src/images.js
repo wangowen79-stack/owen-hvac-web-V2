@@ -1,6 +1,6 @@
 const IMG = {
   logo: "/images/logo.png",
-  heroMaintenance: "/images/hero-piggybank.jpg",
+  heroMaintenance: "/images/hero-savings.jpg",
   bill: "/images/bill.jpg",
   partner1: "/images/partner-1.png",
   partner2: "/images/partner-2.png",
