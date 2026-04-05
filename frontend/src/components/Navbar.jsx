@@ -35,9 +35,26 @@ export default function Navbar() {
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         height: scrolled ? 62 : 74, transition: 'height 0.3s ease',
       }}>
-        <Link to="/" style={{ display: 'flex', alignItems: 'center' }} onClick={() => setMobileOpen(false)}>
-          <img src={IMG.logo} alt="Owen HVAC" style={{ height: 40, filter: 'brightness(1.1)' }} />
-        </Link>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+          <Link to="/" style={{ display: 'flex', alignItems: 'center' }} onClick={() => setMobileOpen(false)}>
+            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 40, filter: 'brightness(1.1)' }} />
+          </Link>
+          <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{
+            display: 'flex', alignItems: 'center', gap: 8,
+            background: 'rgba(255,255,255,0.08)', padding: '5px 12px 5px 6px',
+            borderRadius: 8, border: '1px solid rgba(255,255,255,0.1)',
+            textDecoration: 'none', transition: 'all 0.2s',
+          }}
+            onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.14)'}
+            onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
+          >
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB" style={{ width: 48, filter: 'brightness(1.5)' }} />
+            <div style={{ borderLeft: '1px solid rgba(255,255,255,0.12)', paddingLeft: 8 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: '#F5B731', lineHeight: 1.1 }}>A+</div>
+              <div style={{ fontSize: 9, color: 'rgba(255,255,255,0.5)', whiteSpace: 'nowrap' }}>BBB Rating</div>
+            </div>
+          </a>
+        </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }} className="desktop-nav">
           {navLinks.map(l => (
