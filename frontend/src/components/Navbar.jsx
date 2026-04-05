@@ -33,25 +33,25 @@ export default function Navbar() {
       <div style={{
         maxWidth: 1200, margin: '0 auto', padding: '0 24px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        height: scrolled ? 84 : 100, transition: 'height 0.3s ease',
+        height: scrolled ? 90 : 108, transition: 'height 0.3s ease',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center' }} onClick={() => setMobileOpen(false)}>
-            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 72, filter: 'brightness(1.1)' }} />
+            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 90, filter: 'brightness(1.1)' }} />
           </Link>
           <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{
             display: 'flex', alignItems: 'center', gap: 6,
             textDecoration: 'none', transition: 'all 0.2s',
           }}>
-            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 72, filter: 'brightness(1.5)' }} />
-            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 72, objectFit: 'contain' }} />
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 65, filter: 'brightness(1.5)' }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 65, objectFit: 'contain' }} />
           </a>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }} className="desktop-nav">
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} style={{
-              background: isActive(l.path) ? 'rgba(0,168,150,0.14)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(220,38,38,0.12)' : 'transparent',
               border: 'none', color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.8)',
               padding: '7px 14px', borderRadius: 8, fontSize: 14, fontWeight: 500,
               transition: 'all 0.2s',
@@ -90,7 +90,7 @@ export default function Navbar() {
         }}>
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} onClick={() => setMobileOpen(false)} style={{
-              background: isActive(l.path) ? 'rgba(0,168,150,0.1)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(220,38,38,0.1)' : 'transparent',
               color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.85)',
               padding: '12px 16px', borderRadius: 8, fontSize: 15, fontWeight: 500, display: 'block',
             }}>{t(`nav.${l.key}`)}</Link>

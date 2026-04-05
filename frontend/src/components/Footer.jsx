@@ -21,7 +21,7 @@ export default function Footer() {
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 36, marginBottom: 40 }}>
           <div>
-            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 72, marginBottom: 18 }} />
+            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 90, marginBottom: 18 }} />
             <p style={{ fontSize: 14, lineHeight: 1.7, maxWidth: 260 }}>{t('footer.desc')}</p>
             <div style={{ display: 'flex', gap: 10, marginTop: 16 }}>
               <a href="https://facebook.com/owenhvac" target="_blank" rel="noopener noreferrer" style={{
