@@ -99,7 +99,7 @@ export function PageHero({ overline, title, subtitle }) {
     }}>
       <div style={{
         position: 'absolute', inset: 0,
-        backgroundImage: 'radial-gradient(circle at 70% 30%, rgba(230,126,34,0.1) 0%, transparent 60%)',
+        backgroundImage: 'radial-gradient(circle at 70% 30%, rgba(232,139,48,0.1) 0%, transparent 60%)',
       }} />
       <div className="container" style={{ position: 'relative' }}>
         <SectionTitle overline={overline} title={title} subtitle={subtitle} light />

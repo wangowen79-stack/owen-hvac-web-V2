@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "blog": "Blogue",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "bookService": "Réserver"
+  },
+  "hero": {
+    "badge": "Entrepreneur CVC licencié et certifié",
+    "title": "Gardez votre maison",
+    "titleHighlight": "Confortable toute l'année",
+    "subtitle": "Entretien, nettoyage et réparation CVC professionnels pour les maisons de Halifax et de la Nouvelle-Écosse. Prolongez la durée de vie de votre système et réduisez vos factures d'énergie.",
+    "cta1": "Réserver un entretien",
+    "cta2": "Nos services",
+    "stat1num": "500+",
+    "stat1label": "Foyers desservis",
+    "stat2num": "100%",
+    "stat2label": "Licencié",
+    "stat3num": "5★",
+    "stat3label": "Évaluation Google"
+  },
+  "services": {
+    "overline": "Nos services",
+    "title": "Nos services",
+    "subtitle": "Solutions CVC complètes pour votre maison — de l'entretien régulier aux réparations d'urgence.",
+    "maintenance": {
+      "title": "Entretien et nettoyage CVC",
+      "desc": "Mise au point annuelle, nettoyage en profondeur des thermopompes, climatiseurs centraux, mini-splits et fournaises. Gardez votre système performant.",
+      "tag": "Le plus populaire"
+    },
+    "heatpump": {
+      "title": "Thermopompe",
+      "desc": "Installation, réparation et entretien saisonnier de tous les systèmes de thermopompes. Chauffage et climatisation écoénergétiques."
+    },
+    "boiler": {
+      "title": "Chaudière électrique",
+      "desc": "Installation, réparation et entretien de chaudières électriques et chauffe-eau. Eau chaude et chauffage hydronique fiables."
+    },
+    "hrv": {
+      "title": "Ventilation VRC",
+      "desc": "Systèmes de ventilation à récupération de chaleur pour une qualité d'air intérieur supérieure. Air frais sans gaspillage d'énergie."
+    },
+    "electrical": {
+      "title": "Services électriques",
+      "desc": "Mise à niveau de panneaux, installation de circuits, inspections de sécurité et travaux électriques résidentiels."
+    }
+  },
+  "whyUs": {
+    "overline": "Pourquoi nous choisir",
+    "title": "La confiance des propriétaires de Halifax",
+    "items": [
+      { "title": "Licencié et certifié", "desc": "Certifié en réfrigération et en électricité du bâtiment." },
+      { "title": "Entretien préventif", "desc": "L'entretien préventif vous fait économiser à long terme." },
+      { "title": "Service bilingue", "desc": "Nous servons les communautés anglophone et chinoise." },
+      { "title": "Experts locaux", "desc": "Basé à Halifax, desservant toute la Nouvelle-Écosse." }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à planifier votre service?",
+    "subtitle": "L'entretien régulier prolonge la durée de vie de votre système de plus de 10 ans et réduit vos factures d'énergie. N'attendez pas une panne.",
+    "button": "Réserver un entretien"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Réservez un service ou obtenez une consultation gratuite. Nous répondons dans les 24 heures.",
+    "formTitle": "Réserver un service",
+    "name": "Nom complet",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "service": "Service requis",
+    "serviceOptions": ["Entretien et nettoyage CVC", "Thermopompe (installation/réparation)", "Chaudière électrique", "Ventilation VRC", "Services électriques", "Réparation d'urgence"],
+    "message": "Comment pouvons-nous vous aider?",
+    "submit": "Envoyer la demande",
+    "thanks": "Merci!",
+    "thanksMsg": "Votre demande a été reçue. Nous vous contacterons bientôt.",
+    "phone1": "+1 (782) 824-2846",
+    "phone2": "",
+    "emailAddr": "info@owenhvac.ca",
+    "hours": "Lun–Ven, 9h à 17h",
+    "area": "Halifax · Dartmouth · Nouvelle-Écosse"
+  },
+  "footer": {
+    "desc": "Entretien, nettoyage et réparation CVC professionnels à Halifax, Dartmouth et en Nouvelle-Écosse. Votre partenaire de confiance pour le confort de votre maison.",
+    "links": "Liens rapides",
+    "contactTitle": "Contact",
+    "partners": "Partenaires",
+    "copyright": "Owen HVAC Corp. Tous droits réservés."
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "items": [
+      { "q": "À quelle fréquence dois-je planifier l'entretien CVC?", "a": "Nous recommandons un entretien annuel — idéalement avant l'hiver (pour le chauffage) et avant l'été (pour la climatisation). Les mises au point régulières maintiennent votre système efficace et préviennent les pannes coûteuses." },
+      { "q": "Que comprend le service de nettoyage de thermopompe?", "a": "Notre nettoyage en profondeur comprend le nettoyage des unités intérieure et extérieure, le lavage des serpentins, le remplacement du filtre, la vérification du réfrigérant et un test complet de performance." },
+      { "q": "Entretenez-vous toutes les marques de thermopompes?", "a": "Oui. Nos techniciens sont formés pour travailler avec toutes les grandes marques, y compris Daikin, Mitsubishi, LG, Fujitsu, Carrier et plus." },
+      { "q": "Quels sont les avantages d'une chaudière électrique?", "a": "Les chaudières électriques sont très efficaces (près de 100%), ne produisent aucune émission, nécessitent moins d'entretien que les chaudières à gaz et sont plus silencieuses. C'est un excellent choix pour les maisons en Nouvelle-Écosse." },
+      { "q": "Combien de temps dure le nettoyage d'un mini-split?", "a": "Un nettoyage en profondeur standard prend environ 1 à 2 heures par unité intérieure. Nous utilisons des équipements professionnels pour un nettoyage complet de l'échangeur de chaleur, du ventilateur et du système de drainage." },
+      { "q": "Offrez-vous des services de réparation d'urgence?", "a": "Oui, nous fournissons des réparations d'urgence pour les systèmes de chauffage et de climatisation. Contactez-nous et nous répondrons le plus rapidement possible." }
+    ]
+  }
+}
