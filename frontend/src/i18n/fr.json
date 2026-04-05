@@ -52,10 +52,22 @@
     "overline": "Pourquoi nous choisir",
     "title": "La confiance des propriétaires de Halifax",
     "items": [
-      { "title": "Licencié et certifié", "desc": "Certifié en réfrigération et en électricité du bâtiment." },
-      { "title": "Entretien préventif", "desc": "L'entretien préventif vous fait économiser à long terme." },
-      { "title": "Service bilingue", "desc": "Nous servons les communautés anglophone et chinoise." },
-      { "title": "Experts locaux", "desc": "Basé à Halifax, desservant toute la Nouvelle-Écosse." }
+      {
+        "title": "Licencié et certifié",
+        "desc": "Certifié en réfrigération et en électricité du bâtiment."
+      },
+      {
+        "title": "Entretien préventif",
+        "desc": "L'entretien préventif vous fait économiser à long terme."
+      },
+      {
+        "title": "Service bilingue",
+        "desc": "Nous servons les communautés anglophone et chinoise."
+      },
+      {
+        "title": "Experts locaux",
+        "desc": "Basé à Halifax, desservant toute la Nouvelle-Écosse."
+      }
     ]
   },
   "cta": {
@@ -72,7 +84,14 @@
     "phone": "Téléphone",
     "address": "Adresse",
     "service": "Service requis",
-    "serviceOptions": ["Entretien et nettoyage CVC", "Thermopompe (installation/réparation)", "Chaudière électrique", "Ventilation VRC", "Services électriques", "Réparation d'urgence"],
+    "serviceOptions": [
+      "Entretien et nettoyage CVC",
+      "Thermopompe (installation/réparation)",
+      "Chaudière électrique",
+      "Ventilation VRC",
+      "Services électriques",
+      "Réparation d'urgence"
+    ],
     "message": "Comment pouvons-nous vous aider?",
     "submit": "Envoyer la demande",
     "thanks": "Merci!",
@@ -93,12 +112,30 @@
   "faq": {
     "title": "Questions fréquemment posées",
     "items": [
-      { "q": "À quelle fréquence dois-je planifier l'entretien CVC?", "a": "Nous recommandons un entretien annuel — idéalement avant l'hiver (pour le chauffage) et avant l'été (pour la climatisation). Les mises au point régulières maintiennent votre système efficace et préviennent les pannes coûteuses." },
-      { "q": "Que comprend le service de nettoyage de thermopompe?", "a": "Notre nettoyage en profondeur comprend le nettoyage des unités intérieure et extérieure, le lavage des serpentins, le remplacement du filtre, la vérification du réfrigérant et un test complet de performance." },
-      { "q": "Entretenez-vous toutes les marques de thermopompes?", "a": "Oui. Nos techniciens sont formés pour travailler avec toutes les grandes marques, y compris Daikin, Mitsubishi, LG, Fujitsu, Carrier et plus." },
-      { "q": "Quels sont les avantages d'une chaudière électrique?", "a": "Les chaudières électriques sont très efficaces (près de 100%), ne produisent aucune émission, nécessitent moins d'entretien que les chaudières à gaz et sont plus silencieuses. C'est un excellent choix pour les maisons en Nouvelle-Écosse." },
-      { "q": "Combien de temps dure le nettoyage d'un mini-split?", "a": "Un nettoyage en profondeur standard prend environ 1 à 2 heures par unité intérieure. Nous utilisons des équipements professionnels pour un nettoyage complet de l'échangeur de chaleur, du ventilateur et du système de drainage." },
-      { "q": "Offrez-vous des services de réparation d'urgence?", "a": "Oui, nous fournissons des réparations d'urgence pour les systèmes de chauffage et de climatisation. Contactez-nous et nous répondrons le plus rapidement possible." }
+      {
+        "q": "À quelle fréquence dois-je planifier l'entretien CVC?",
+        "a": "Nous recommandons un entretien annuel — idéalement avant l'hiver (pour le chauffage) et avant l'été (pour la climatisation). Les mises au point régulières maintiennent votre système efficace et préviennent les pannes coûteuses."
+      },
+      {
+        "q": "Que comprend le service de nettoyage de thermopompe?",
+        "a": "Notre nettoyage en profondeur comprend le nettoyage des unités intérieure et extérieure, le lavage des serpentins, le remplacement du filtre, la vérification du réfrigérant et un test complet de performance."
+      },
+      {
+        "q": "Entretenez-vous toutes les marques de thermopompes?",
+        "a": "Oui. Nos techniciens sont formés pour travailler avec toutes les grandes marques, y compris Daikin, LG, Tosot, Gree et plus."
+      },
+      {
+        "q": "Quels sont les avantages d'une chaudière électrique?",
+        "a": "Les chaudières électriques sont très efficaces (près de 100%), ne produisent aucune émission, nécessitent moins d'entretien que les chaudières à gaz et sont plus silencieuses. C'est un excellent choix pour les maisons en Nouvelle-Écosse."
+      },
+      {
+        "q": "Combien de temps dure le nettoyage d'un mini-split?",
+        "a": "Un nettoyage en profondeur standard prend environ 1 à 2 heures par unité intérieure. Nous utilisons des équipements professionnels pour un nettoyage complet de l'échangeur de chaleur, du ventilateur et du système de drainage."
+      },
+      {
+        "q": "Offrez-vous des services de réparation d'urgence?",
+        "a": "Oui, nous fournissons des réparations d'urgence pour les systèmes de chauffage et de climatisation. Contactez-nous et nous répondrons le plus rapidement possible."
+      }
     ]
   }
 }

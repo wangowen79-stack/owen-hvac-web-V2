@@ -17,7 +17,7 @@ export default function Navbar() {
   const scrolled = useScrolled();
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
-  const { t, lang, cycleLang } = useI18n();
+  const { t, lang, setLang } = useI18n();
 
   const isActive = (path) => path === '/' ? location.pathname === '/' : location.pathname.startsWith(path);
 
@@ -40,7 +40,7 @@ export default function Navbar() {
             <img src={IMG.logo} alt="Owen HVAC" style={{ height: 90, filter: 'brightness(1.1)' }} />
           </Link>
           <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{
-            display: 'flex', alignItems: 'center', gap: 10,
+            display: 'flex', alignItems: 'center', gap: 4,
             textDecoration: 'none', transition: 'all 0.2s',
           }}>
             <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 70, filter: 'brightness(1.5)' }} />
@@ -48,7 +48,7 @@ export default function Navbar() {
               <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
               <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
-            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 80, objectFit: 'contain' }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 90, objectFit: 'contain' }} />
           </a>
         </div>
 
@@ -62,14 +62,19 @@ export default function Navbar() {
             }}>{t(`nav.${l.key}`)}</Link>
           ))}
 
-          <button onClick={cycleLang} style={{
-            background: 'rgba(255,255,255,0.08)', border: 'none',
-            color: 'rgba(255,255,255,0.7)', padding: '7px 12px', borderRadius: 8,
-            fontSize: 13, fontWeight: 500, display: 'flex', alignItems: 'center', gap: 5,
-            marginLeft: 4,
-          }}>
-            <Globe size={14} />{lang === 'en' ? '中文' : lang === 'zh' ? 'FR' : 'EN'}
-          </button>
+          <div style={{ position: 'relative', marginLeft: 4 }}>
+            <select value={lang} onChange={e => setLang(e.target.value)} style={{
+              background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
+              color: 'rgba(255,255,255,0.8)', padding: '7px 28px 7px 10px', borderRadius: 8,
+              fontSize: 13, fontWeight: 500, cursor: 'pointer', appearance: 'none',
+              WebkitAppearance: 'none', outline: 'none',
+            }}>
+              <option value="en" style={{ color: '#333', background: 'white' }}>English</option>
+              <option value="zh" style={{ color: '#333', background: 'white' }}>中文</option>
+              <option value="fr" style={{ color: '#333', background: 'white' }}>Français</option>
+            </select>
+            <Globe size={13} style={{ position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none', color: 'rgba(255,255,255,0.5)' }} />
+          </div>
 
           <Link to="/contact" style={{
             background: 'linear-gradient(135deg, var(--copper), var(--copper-dark))',
@@ -100,11 +105,15 @@ export default function Navbar() {
             }}>{t(`nav.${l.key}`)}</Link>
           ))}
           <div style={{ display: 'flex', gap: 8, marginTop: 8 }}>
-            <button onClick={() => { cycleLang(); setMobileOpen(false); }} style={{
-              flex: 1, background: 'rgba(255,255,255,0.06)', border: 'none',
+            <select value={lang} onChange={e => { setLang(e.target.value); setMobileOpen(false); }} style={{
+              flex: 1, background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)',
               color: 'rgba(255,255,255,0.8)', padding: '12px', borderRadius: 10,
-              fontSize: 14, fontWeight: 500,
-            }}>{lang === 'en' ? '中文' : lang === 'zh' ? 'Français' : 'English'}</button>
+              fontSize: 14, fontWeight: 500, cursor: 'pointer',
+            }}>
+              <option value="en" style={{ color: '#333' }}>English</option>
+              <option value="zh" style={{ color: '#333' }}>中文</option>
+              <option value="fr" style={{ color: '#333' }}>Français</option>
+            </select>
             <Link to="/contact" onClick={() => setMobileOpen(false)} style={{
               flex: 1, background: 'var(--orange)', color: 'white', padding: '12px',
               borderRadius: 10, fontSize: 14, fontWeight: 600, textAlign: 'center',

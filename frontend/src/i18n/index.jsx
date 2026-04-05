@@ -39,7 +39,7 @@ export function I18nProvider({ children }) {
   };
 
   return (
-    <I18nContext.Provider value={{ lang, cycleLang, t }}>
+    <I18nContext.Provider value={{ lang, setLang: (l) => { setLang(l); localStorage.setItem('owenhvac-lang', l); }, cycleLang, t }}>
       {children}
     </I18nContext.Provider>
   );
