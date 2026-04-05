@@ -80,7 +80,7 @@ export default function ContactPage() {
                   <label style={{ fontSize: 13, fontWeight: 500, color: 'var(--gray-700)', marginBottom: 5, display: 'block' }}>{t('contact.message')} *</label>
                   <textarea style={{ ...inputStyle, minHeight: 110, resize: 'vertical' }} value={form.message} onChange={update('message')} onFocus={e => e.target.style.borderColor = 'var(--orange)'} onBlur={e => e.target.style.borderColor = 'var(--gray-200)'} />
                 </div>
-                <button onClick={handleSubmit} style={{ background: 'linear-gradient(135deg, var(--orange), var(--orange-dark))', border: 'none', color: 'white', padding: '15px', borderRadius: 'var(--radius)', fontSize: 16, fontWeight: 600, boxShadow: '0 4px 16px rgba(232,122,46,0.25)', transition: 'all 0.2s' }}>{t('contact.submit')}</button>
+                <button onClick={handleSubmit} style={{ background: 'linear-gradient(135deg, var(--copper), var(--copper-dark))', border: 'none', color: 'white', padding: '15px', borderRadius: 'var(--radius)', fontSize: 16, fontWeight: 600, boxShadow: '0 4px 16px rgba(199,123,63,0.25)', transition: 'all 0.2s' }}>{t('contact.submit')}</button>
               </div>
             )}
           </div>

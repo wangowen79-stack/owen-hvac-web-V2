@@ -38,7 +38,7 @@ export function CTA({ label, to, onClick, variant = 'primary', icon }) {
   const style = {
     display: 'inline-flex', alignItems: 'center', gap: 8,
     background: variant === 'primary'
-      ? 'linear-gradient(135deg, var(--orange), var(--orange-dark))'
+      ? 'linear-gradient(135deg, var(--copper), var(--copper-dark))'
       : variant === 'outline'
       ? 'transparent'
       : 'linear-gradient(135deg, var(--blue), #1A5CA0)',

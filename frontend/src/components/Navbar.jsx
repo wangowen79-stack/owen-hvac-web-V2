@@ -33,11 +33,11 @@ export default function Navbar() {
       <div style={{
         maxWidth: 1200, margin: '0 auto', padding: '0 24px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        height: scrolled ? 62 : 74, transition: 'height 0.3s ease',
+        height: scrolled ? 68 : 82, transition: 'height 0.3s ease',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center' }} onClick={() => setMobileOpen(false)}>
-            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 40, filter: 'brightness(1.1)' }} />
+            <img src={IMG.logo} alt="Owen HVAC" style={{ height: 56, filter: 'brightness(1.1)' }} />
           </Link>
           <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{
             display: 'flex', alignItems: 'center', gap: 10,
@@ -49,8 +49,9 @@ export default function Navbar() {
             onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
           >
             <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ width: 64, filter: 'brightness(1.5)' }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ width: 28, height: 28, borderRadius: '50%', objectFit: 'contain', background: 'white', padding: 2 }} />
             <div style={{ borderLeft: '1px solid rgba(255,255,255,0.12)', paddingLeft: 10 }}>
-              <div style={{ fontSize: 14, fontWeight: 700, color: '#F5B731', lineHeight: 1.15 }}>A+ Rating</div>
+              <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.55)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
           </a>
@@ -59,7 +60,7 @@ export default function Navbar() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }} className="desktop-nav">
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} style={{
-              background: isActive(l.path) ? 'rgba(232,122,46,0.12)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(13,124,110,0.12)' : 'transparent',
               border: 'none', color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.8)',
               padding: '7px 14px', borderRadius: 8, fontSize: 14, fontWeight: 500,
               transition: 'all 0.2s',
@@ -76,10 +77,10 @@ export default function Navbar() {
           </button>
 
           <Link to="/contact" style={{
-            background: 'linear-gradient(135deg, var(--orange), var(--orange-dark))',
+            background: 'linear-gradient(135deg, var(--copper), var(--copper-dark))',
             border: 'none', color: 'white', padding: '9px 18px', borderRadius: 10,
             fontSize: 14, fontWeight: 600, marginLeft: 6,
-            boxShadow: '0 2px 12px rgba(232,122,46,0.25)',
+            boxShadow: '0 2px 12px rgba(199,123,63,0.25)',
           }}>{t('nav.bookService')}</Link>
         </div>
 
@@ -98,7 +99,7 @@ export default function Navbar() {
         }}>
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} onClick={() => setMobileOpen(false)} style={{
-              background: isActive(l.path) ? 'rgba(232,122,46,0.1)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(13,124,110,0.1)' : 'transparent',
               color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.85)',
               padding: '12px 16px', borderRadius: 8, fontSize: 15, fontWeight: 500, display: 'block',
             }}>{t(`nav.${l.key}`)}</Link>
