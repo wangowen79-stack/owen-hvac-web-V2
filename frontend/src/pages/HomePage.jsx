@@ -63,13 +63,13 @@ export default function HomePage() {
               <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: '0 30px 60px rgba(0,0,0,0.25)', border: '1px solid rgba(255,255,255,0.06)' }}>
                 <img src={IMG.heroMaintenance} alt="HVAC maintenance" style={{ width: '100%', height: 440, objectFit: 'cover' }} />
               </div>
-              <div style={{ position: 'absolute', bottom: -16, left: -16, background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(10px)', borderRadius: 16, padding: '16px 20px', boxShadow: '0 10px 36px rgba(0,0,0,0.12)', animation: 'float 5s ease-in-out infinite', maxWidth: 200 }}>
+              <div style={{ position: 'absolute', top: -14, right: -14, background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(10px)', borderRadius: 16, padding: '14px 18px', boxShadow: '0 10px 36px rgba(0,0,0,0.12)', animation: 'float 5s ease-in-out infinite', maxWidth: 180, zIndex: 2 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
-                  <div style={{ width: 32, height: 32, borderRadius: 8, background: 'var(--green-light)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Wrench size={16} color="var(--green)" /></div>
-                  <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--navy)' }}>Annual Savings</span>
+                  <div style={{ width: 30, height: 30, borderRadius: 8, background: 'var(--green-light)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Wrench size={14} color="var(--green)" /></div>
+                  <span style={{ fontSize: 11, fontWeight: 600, color: 'var(--navy)' }}>Annual Savings</span>
                 </div>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: 28, fontWeight: 700, color: 'var(--green)' }}>30%</div>
-                <div style={{ fontSize: 11, color: 'var(--gray-400)' }}>on energy with regular maintenance</div>
+                <div style={{ fontFamily: 'var(--font-display)', fontSize: 26, fontWeight: 700, color: 'var(--green)' }}>30%</div>
+                <div style={{ fontSize: 10, color: 'var(--gray-400)' }}>on energy with maintenance</div>
               </div>
             </div>
           </div>

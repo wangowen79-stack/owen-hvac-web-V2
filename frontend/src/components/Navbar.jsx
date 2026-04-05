@@ -40,20 +40,11 @@ export default function Navbar() {
             <img src={IMG.logo} alt="Owen HVAC" style={{ height: 72, filter: 'brightness(1.1)' }} />
           </Link>
           <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{
-            display: 'flex', alignItems: 'center', gap: 10,
-            background: 'rgba(255,255,255,0.08)', padding: '4px 14px 4px 4px',
-            borderRadius: 10, border: '1px solid rgba(255,255,255,0.12)',
+            display: 'flex', alignItems: 'center', gap: 6,
             textDecoration: 'none', transition: 'all 0.2s',
-          }}
-            onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
-            onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
-          >
-            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ width: 64, filter: 'brightness(1.5)' }} />
-            <img src={IMG.partner3} alt="Certified Partner" style={{ width: 104, height: 104, objectFit: 'contain' }} />
-            <div style={{ borderLeft: '1px solid rgba(255,255,255,0.12)', paddingLeft: 10 }}>
-              <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
-              <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.55)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
-            </div>
+          }}>
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 72, filter: 'brightness(1.5)' }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 72, objectFit: 'contain' }} />
           </a>
         </div>
 
