@@ -45,7 +45,7 @@ export default function HomePage() {
                 <CTA label={t('hero.cta2')} to="/services" variant="outline" />
               </div>
 
-              <div className="hero-stats" style={{ display: 'flex', gap: 36, marginTop: 48, animation: 'fadeUp 0.7s ease both 0.45s' }}>
+              <div className="hero-stats" style={{ display: 'flex', gap: 36, marginTop: 48, alignItems: 'center', animation: 'fadeUp 0.7s ease both 0.45s' }}>
                 {[
                   { n: t('hero.stat1num'), l: t('hero.stat1label') },
                   { n: t('hero.stat2num'), l: t('hero.stat2label') },
@@ -56,6 +56,9 @@ export default function HomePage() {
                     <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', marginTop: 2 }}>{s.l}</div>
                   </div>
                 ))}
+                <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, padding: '8px 16px', background: 'rgba(255,255,255,0.06)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.08)', transition: 'all 0.2s' }}>
+                  <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB A+ Rating" style={{ width: 120, filter: 'brightness(1.5)' }} />
+                </a>
               </div>
             </div>
 
@@ -114,10 +117,25 @@ export default function HomePage() {
               );
             })}
           </div>
+          {/* BBB Accreditation Banner */}
+          <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 24,
+            marginTop: 28, padding: '24px 32px', borderRadius: 'var(--radius-lg)',
+            background: 'linear-gradient(135deg, #F0F7FF, #E6F0FA)',
+            border: '1px solid #C8DFF5', textDecoration: 'none',
+            transition: 'all 0.3s',
+          }}
+            onMouseEnter={e => e.currentTarget.style.boxShadow = '0 8px 24px rgba(1,90,117,0.1)'}
+            onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}
+          >
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB Accredited Business" style={{ width: 140 }} />
+            <div>
+              <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 700, color: '#015A75' }}>BBB Accredited Business — A+ Rating</div>
+              <div style={{ fontSize: 14, color: 'var(--gray-500)', marginTop: 4 }}>Owen HVAC Corp is proud to be recognized by the Better Business Bureau for our commitment to trust and quality service.</div>
+            </div>
+          </a>
         </div>
       </section>
-
-      {/* ── PARTNERS ── */}
       <section style={{ padding: '44px 24px', background: 'var(--gray-50)', borderTop: '1px solid var(--gray-200)', borderBottom: '1px solid var(--gray-200)' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 44, flexWrap: 'wrap' }}>
           <span style={{ fontSize: 13, fontWeight: 500, color: 'var(--gray-400)' }}>Trusted Partners</span>

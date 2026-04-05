@@ -79,6 +79,10 @@ export default function Footer() {
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://www.owenhvac.ca" alt="WeChat QR" style={{ width: 80, height: 80, margin: '0 auto 8px', borderRadius: 4 }} />
               <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)' }}>WeChat / 微信</div>
             </div>
+            <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{ display: 'block', marginTop: 14, textAlign: 'center' }}>
+              <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB A+ Rating" style={{ width: 140, margin: '0 auto', filter: 'brightness(1.4)' }} />
+              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginTop: 4 }}>BBB Accredited — A+ Rating</div>
+            </a>
           </div>
         </div>
 
