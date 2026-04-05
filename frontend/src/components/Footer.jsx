@@ -71,8 +71,8 @@ export default function Footer() {
                 <img key={i} src={p} alt="Partner" style={{ height: 36, opacity: 0.6, filter: 'brightness(1.3)' }} />
               ))}
             </div>
-            <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{ display: 'block', marginTop: 20, textAlign: 'center', padding: '16px', borderRadius: 10, background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)' }}>
-              <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB A+ Rating" style={{ width: 150, margin: '0 auto', filter: 'brightness(1.4)' }} />
+            <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{ display: 'block', marginTop: 20, textAlign: 'center', padding: '16px', borderRadius: 10, background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)' }}>
+              <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="BBB A+ Rating" style={{ width: 150, margin: '0 auto', filter: 'brightness(1.4)' }} />
               <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginTop: 6 }}>BBB Accredited — A+ Rating</div>
             </a>
           </div>

@@ -39,19 +39,19 @@ export default function Navbar() {
           <Link to="/" style={{ display: 'flex', alignItems: 'center' }} onClick={() => setMobileOpen(false)}>
             <img src={IMG.logo} alt="Owen HVAC" style={{ height: 40, filter: 'brightness(1.1)' }} />
           </Link>
-          <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330" target="_blank" rel="noopener noreferrer" style={{
-            display: 'flex', alignItems: 'center', gap: 8,
-            background: 'rgba(255,255,255,0.08)', padding: '5px 12px 5px 6px',
-            borderRadius: 8, border: '1px solid rgba(255,255,255,0.1)',
+          <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{
+            display: 'flex', alignItems: 'center', gap: 10,
+            background: 'rgba(255,255,255,0.08)', padding: '4px 14px 4px 4px',
+            borderRadius: 10, border: '1px solid rgba(255,255,255,0.12)',
             textDecoration: 'none', transition: 'all 0.2s',
           }}
-            onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.14)'}
+            onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
             onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
           >
-            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_192" alt="BBB" style={{ width: 48, filter: 'brightness(1.5)' }} />
-            <div style={{ borderLeft: '1px solid rgba(255,255,255,0.12)', paddingLeft: 8 }}>
-              <div style={{ fontSize: 13, fontWeight: 700, color: '#F5B731', lineHeight: 1.1 }}>A+</div>
-              <div style={{ fontSize: 9, color: 'rgba(255,255,255,0.5)', whiteSpace: 'nowrap' }}>BBB Rating</div>
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ width: 64, filter: 'brightness(1.5)' }} />
+            <div style={{ borderLeft: '1px solid rgba(255,255,255,0.12)', paddingLeft: 10 }}>
+              <div style={{ fontSize: 14, fontWeight: 700, color: '#F5B731', lineHeight: 1.15 }}>A+ Rating</div>
+              <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.55)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
           </a>
         </div>
