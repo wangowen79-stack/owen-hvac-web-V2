@@ -44,9 +44,9 @@ export default function Navbar() {
             textDecoration: 'none', transition: 'all 0.2s',
           }}>
             <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 70, filter: 'brightness(1.5)' }} />
-            <div style={{ borderLeft: '2px solid rgba(255,255,255,0.15)', paddingLeft: 10 }}>
-              <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
-              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
+            <div style={{ borderLeft: '2px solid rgba(255,255,255,0.15)', paddingLeft: 6, paddingRight: 0, marginRight: -4 }}>
+              <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
+              <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
             <img src={IMG.partner3} alt="Certified Partner" style={{ height: 90, objectFit: 'contain' }} />
           </a>
