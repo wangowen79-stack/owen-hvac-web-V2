@@ -40,10 +40,14 @@ export default function Navbar() {
             <img src={IMG.logo} alt="Owen HVAC" style={{ height: 90, filter: 'brightness(1.1)' }} />
           </Link>
           <a href="https://www.bbb.org/ca/ns/bedford/profile/heating-and-air-conditioning/owen-hvac-corp-0087-90330?utm_campaign=bbb_seal&utm_content=Owen%20HVAC%20Corp&utm_medium=website&utm_source=seal_click_90330" target="_blank" rel="noopener noreferrer" style={{
-            display: 'flex', alignItems: 'center', gap: 6,
+            display: 'flex', alignItems: 'center', gap: 10,
             textDecoration: 'none', transition: 'all 0.2s',
           }}>
-            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 40, filter: 'brightness(1.5)' }} />
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 70, filter: 'brightness(1.5)' }} />
+            <div style={{ borderLeft: '2px solid rgba(255,255,255,0.15)', paddingLeft: 10 }}>
+              <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
+              <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
+            </div>
             <img src={IMG.partner3} alt="Certified Partner" style={{ height: 80, objectFit: 'contain' }} />
           </a>
         </div>

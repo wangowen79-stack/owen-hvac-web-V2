@@ -11,7 +11,7 @@ import HeatPumpPage from './pages/HeatPumpPage';
 import ElectricBoilerPage from './pages/ElectricBoilerPage';
 import HRVPage from './pages/HRVPage';
 import ElectricalPage from './pages/ElectricalPage';
-import BlogPage from './pages/BlogPage';
+import BlogPage, { Article1, Article2 } from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
 import FAQPage from './pages/FAQPage';
 
@@ -36,6 +36,8 @@ export default function App() {
         <Route path="/services/hrv" element={<HRVPage />} />
         <Route path="/services/electrical" element={<ElectricalPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/heat-pump-installation-cost-halifax-2026" element={<Article1 />} />
+        <Route path="/blog/mini-split-vs-central-air-halifax" element={<Article2 />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/faq" element={<FAQPage />} />
       </Routes>
