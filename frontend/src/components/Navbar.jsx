@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <nav style={{
       position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000,
-      background: scrolled ? 'rgba(12,30,47,0.97)' : 'rgba(12,30,47,0.88)',
+      background: scrolled ? 'rgba(44,62,80,0.97)' : 'rgba(44,62,80,0.88)',
       backdropFilter: 'blur(20px)',
       borderBottom: scrolled ? '1px solid rgba(255,255,255,0.06)' : 'none',
       transition: 'all 0.3s ease',
@@ -43,15 +43,15 @@ export default function Navbar() {
             display: 'flex', alignItems: 'center', gap: 6,
             textDecoration: 'none', transition: 'all 0.2s',
           }}>
-            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 65, filter: 'brightness(1.5)' }} />
-            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 65, objectFit: 'contain' }} />
+            <img src="https://m.bbb.org/terminuscontent/dist/img/dynamic-seal/ab-seal-horizontal-can-blue.svg?tx=w_360" alt="Owen HVAC Corp BBB accredited business profile" style={{ height: 40, filter: 'brightness(1.5)' }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 80, objectFit: 'contain' }} />
           </a>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }} className="desktop-nav">
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} style={{
-              background: isActive(l.path) ? 'rgba(220,38,38,0.12)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(230,126,34,0.12)' : 'transparent',
               border: 'none', color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.8)',
               padding: '7px 14px', borderRadius: 8, fontSize: 14, fontWeight: 500,
               transition: 'all 0.2s',
@@ -90,7 +90,7 @@ export default function Navbar() {
         }}>
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} onClick={() => setMobileOpen(false)} style={{
-              background: isActive(l.path) ? 'rgba(220,38,38,0.1)' : 'transparent',
+              background: isActive(l.path) ? 'rgba(230,126,34,0.1)' : 'transparent',
               color: isActive(l.path) ? 'var(--orange)' : 'rgba(255,255,255,0.85)',
               padding: '12px 16px', borderRadius: 8, fontSize: 15, fontWeight: 500, display: 'block',
             }}>{t(`nav.${l.key}`)}</Link>

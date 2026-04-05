@@ -15,16 +15,16 @@ export default function HomePage() {
       {/* ── HERO ── */}
       <section style={{
         minHeight: '100vh', display: 'flex', alignItems: 'center',
-        background: 'linear-gradient(145deg, #18181B 0%, #1F1F23 35%, #27272A 70%, #3F3F46 100%)',
+        background: 'linear-gradient(145deg, #2C3E50 0%, #304A60 35%, #34495E 70%, #415B76 100%)',
         position: 'relative', overflow: 'hidden', paddingTop: 80,
       }}>
-        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle at 75% 25%, rgba(220,38,38,0.1) 0%, transparent 55%), radial-gradient(circle at 20% 80%, rgba(245,158,11,0.06) 0%, transparent 50%)' }} />
+        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle at 75% 25%, rgba(230,126,34,0.12) 0%, transparent 55%), radial-gradient(circle at 20% 80%, rgba(241,196,15,0.08) 0%, transparent 50%)' }} />
         <div style={{ position: 'absolute', top: '12%', right: '6%', width: 280, height: 280, borderRadius: '50%', border: '1px solid rgba(255,255,255,0.03)', animation: 'float 7s ease-in-out infinite' }} />
 
         <div className="container" style={{ position: 'relative', width: '100%', padding: '60px 24px' }}>
           <div className="grid-2">
             <div>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(220,38,38,0.1)', padding: '8px 16px', borderRadius: 30, marginBottom: 24, border: '1px solid rgba(220,38,38,0.18)', animation: 'fadeUp 0.6s ease both' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(230,126,34,0.12)', padding: '8px 16px', borderRadius: 30, marginBottom: 24, border: '1px solid rgba(230,126,34,0.2)', animation: 'fadeUp 0.6s ease both' }}>
                 <Shield size={15} color="var(--orange)" />
                 <span style={{ fontSize: 13, fontWeight: 500, color: 'var(--orange-light)', letterSpacing: '0.03em' }}>{t('hero.badge')}</span>
               </div>
@@ -63,7 +63,7 @@ export default function HomePage() {
               <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: '0 30px 60px rgba(0,0,0,0.25)', border: '1px solid rgba(255,255,255,0.06)' }}>
                 <img src={IMG.heroMaintenance} alt="HVAC maintenance" style={{ width: '100%', height: 440, objectFit: 'cover' }} />
               </div>
-              <div style={{ position: 'absolute', top: -14, right: -14, background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(10px)', borderRadius: 16, padding: '14px 18px', boxShadow: '0 10px 36px rgba(0,0,0,0.12)', animation: 'float 5s ease-in-out infinite', maxWidth: 180, zIndex: 2 }}>
+              <div style={{ position: 'absolute', bottom: 20, right: -30, background: 'rgba(255,255,255,0.95)', backdropFilter: 'blur(10px)', borderRadius: 16, padding: '14px 18px', boxShadow: '0 10px 36px rgba(0,0,0,0.12)', animation: 'float 5s ease-in-out infinite', maxWidth: 180, zIndex: 2 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
                   <div style={{ width: 30, height: 30, borderRadius: 8, background: 'var(--green-light)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Wrench size={14} color="var(--green)" /></div>
                   <span style={{ fontSize: 11, fontWeight: 600, color: 'var(--navy)' }}>Annual Savings</span>
