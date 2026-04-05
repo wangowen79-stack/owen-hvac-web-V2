@@ -9,7 +9,7 @@
     "bookService": "预约服务"
   },
   "hero": {
-    "badge": "持牌认证暖通专业团队",
+    "badge": "持牌认证暖通承包商",
     "title": "让您的家",
     "titleHighlight": "四季舒适",
     "subtitle": "为 Halifax 和 Nova Scotia 家庭提供专业暖通维护、清洁和维修服务。定期保养延长设备寿命，降低能源开支。",
@@ -77,8 +77,8 @@
     "submit": "提交",
     "thanks": "感谢您！",
     "thanksMsg": "我们已收到您的信息，将尽快与您联系。",
-    "phone1": "+1 (902) 989-2358",
-    "phone2": "+1 (902) 240-5387 (中文)",
+    "phone1": "+1 (782) 824-2846",
+    "phone2": "",
     "emailAddr": "info@owenhvac.ca",
     "hours": "周一至周五，上午 9 点 – 下午 5 点",
     "area": "Halifax · Dartmouth · Nova Scotia"

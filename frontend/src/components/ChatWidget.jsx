@@ -34,7 +34,7 @@ export default function ChatWidget() {
       const data = await res.json();
       setMessages(prev => [...prev, { role: 'assistant', content: data.reply || data.error || 'Sorry, something went wrong.' }]);
     } catch {
-      setMessages(prev => [...prev, { role: 'assistant', content: lang === 'zh' ? '抱歉，暂时无法连接。请拨打 (902) 989-2358。' : 'Sorry, unable to connect. Please call (902) 989-2358.' }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: lang === 'zh' ? '抱歉，暂时无法连接。请拨打 (782) 824-2846。' : 'Sorry, unable to connect. Please call (782) 824-2846.' }]);
     }
     setLoading(false);
   };

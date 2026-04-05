@@ -51,7 +51,6 @@ export default function Footer() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {[
                 { icon: <Phone size={14} />, text: t('contact.phone1') },
-                { icon: <Phone size={14} />, text: t('contact.phone2') },
                 { icon: <Mail size={14} />, text: t('contact.emailAddr') },
                 { icon: <Clock size={14} />, text: t('contact.hours') },
                 { icon: <MapPin size={14} />, text: t('contact.area') },

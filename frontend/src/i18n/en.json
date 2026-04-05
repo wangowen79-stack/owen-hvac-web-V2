@@ -9,7 +9,7 @@
     "bookService": "Book Service"
   },
   "hero": {
-    "badge": "Licensed & Certified HVAC Professionals",
+    "badge": "Licensed & Certified HVAC Contractor",
     "title": "Keep Your Home",
     "titleHighlight": "Comfortable Year-Round",
     "subtitle": "Professional HVAC maintenance, cleaning & repair for Halifax & Nova Scotia homes. Extend your system's lifespan and lower energy bills with regular expert care.",
@@ -77,8 +77,8 @@
     "submit": "Submit Request",
     "thanks": "Thank You!",
     "thanksMsg": "Your submission has been received. We'll be in touch soon.",
-    "phone1": "+1 (902) 989-2358",
-    "phone2": "+1 (902) 240-5387 (中文)",
+    "phone1": "+1 (782) 824-2846",
+    "phone2": "",
     "emailAddr": "info@owenhvac.ca",
     "hours": "Mon–Fri, 9 AM – 5 PM",
     "area": "Halifax · Dartmouth · Nova Scotia"
