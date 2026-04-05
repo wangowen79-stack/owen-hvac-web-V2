@@ -48,11 +48,11 @@ export default function Navbar() {
               <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
-            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 90, objectFit: 'contain', marginLeft: -30 }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 90, objectFit: 'contain', marginLeft: -100 }} />
           </a>
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: 2, marginLeft: -50 }} className="desktop-nav">
+        <div style={{ display: 'flex', alignItems: 'center', gap: 2, marginLeft: -100 }} className="desktop-nav">
           {navLinks.map(l => (
             <Link key={l.key} to={l.path} style={{
               background: isActive(l.path) ? 'rgba(232,139,48,0.14)' : 'transparent',
