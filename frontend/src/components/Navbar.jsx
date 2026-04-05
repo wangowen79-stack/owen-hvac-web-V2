@@ -48,7 +48,7 @@ export default function Navbar() {
               <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
-            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 90, objectFit: 'contain', marginLeft: -35 }} />
+            <img src={IMG.partner3} alt="Certified Partner" style={{ height: 90, objectFit: 'contain', marginLeft: -43 }} />
           </a>
         </div>
 
