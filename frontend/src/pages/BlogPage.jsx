@@ -92,7 +92,7 @@ function Article1() {
             {[
               { num: '1', title: 'Home Size & Layout', desc: 'Larger homes require more capacity and indoor units.' },
               { num: '2', title: 'System Type', desc: 'Mini split (ductless) vs. central ducted system — ductless is generally less expensive.' },
-              { num: '3', title: 'Brand Selection', desc: 'Popular brands like Daikin and Fujitsu may cost more but offer better efficiency and reliability.' },
+              { num: '3', title: 'Daikin System Selection', desc: 'Daikin systems may cost more upfront, but they are known for strong efficiency, reliability, and long-term comfort.' },
               { num: '4', title: 'Installation Complexity', desc: 'Older homes or electrical upgrades may increase the total cost.' },
             ].map((item, i) => (
               <div key={i} style={{ display: 'flex', gap: 16, padding: '20px 24px', background: 'var(--gray-50)', borderRadius: 'var(--radius)', border: '1px solid var(--gray-200)' }}>

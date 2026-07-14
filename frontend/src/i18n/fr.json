@@ -9,31 +9,31 @@
     "bookService": "Réserver"
   },
   "hero": {
-    "badge": "Entrepreneur CVC licencié et certifié",
+    "badge": "Concessionnaire Daikin Comfort Pro",
     "title": "Gardez votre maison",
     "titleHighlight": "Confortable toute l'année",
-    "subtitle": "Entretien, nettoyage et réparation CVC professionnels pour les maisons de Halifax et de la Nouvelle-Écosse. Prolongez la durée de vie de votre système et réduisez vos factures d'énergie.",
+    "subtitle": "Installation, entretien, nettoyage et reparation de thermopompes Daikin pour les maisons de Halifax et de la Nouvelle-Ecosse. Ameliorez le confort, l efficacite et la fiabilite toute l annee.",
     "cta1": "Réserver un entretien",
     "cta2": "Nos services",
     "stat1num": "500+",
     "stat1label": "Foyers desservis",
     "stat2num": "100%",
     "stat2label": "Licencié",
-    "stat3num": "5★",
+    "stat3num": "5-Star",
     "stat3label": "Évaluation Google"
   },
   "services": {
     "overline": "Nos services",
     "title": "Nos services",
-    "subtitle": "Solutions CVC complètes pour votre maison — de l'entretien régulier aux réparations d'urgence.",
+    "subtitle": "Solutions completes de confort residentiel avec un accent sur les thermopompes Daikin, l entretien, la VRC, l electricite et les reparations d urgence.",
     "maintenance": {
       "title": "Entretien et nettoyage CVC",
       "desc": "Mise au point annuelle, nettoyage en profondeur des thermopompes, climatiseurs centraux, mini-splits et fournaises. Gardez votre système performant.",
       "tag": "Le plus populaire"
     },
     "heatpump": {
-      "title": "Thermopompe",
-      "desc": "Installation, réparation et entretien saisonnier de tous les systèmes de thermopompes. Chauffage et climatisation écoénergétiques."
+      "title": "Thermopompe Daikin",
+      "desc": "Installation, reparation et entretien saisonnier de thermopompes Daikin pour un chauffage et une climatisation efficaces toute l annee."
     },
     "boiler": {
       "title": "Chaudière électrique",
@@ -103,10 +103,10 @@
     "area": "Halifax · Dartmouth · Nouvelle-Écosse"
   },
   "footer": {
-    "desc": "Entretien, nettoyage et réparation CVC professionnels à Halifax, Dartmouth et en Nouvelle-Écosse. Votre partenaire de confiance pour le confort de votre maison.",
+    "desc": "Services professionnels de thermopompes Daikin, entretien CVC, nettoyage et reparation a Halifax, Dartmouth et en Nouvelle-Ecosse.",
     "links": "Liens rapides",
     "contactTitle": "Contact",
-    "partners": "Partenaires",
+    "partners": "Daikin Comfort Pro",
     "copyright": "Owen HVAC Corp. Tous droits réservés."
   },
   "faq": {
@@ -122,7 +122,7 @@
       },
       {
         "q": "Entretenez-vous toutes les marques de thermopompes?",
-        "a": "Oui. Nos techniciens sont formés pour travailler avec toutes les grandes marques, y compris Daikin, LG, Tosot, Gree et plus."
+        "a": "Oui. En tant que concessionnaire Daikin Comfort Pro, nous mettons l accent sur les thermopompes Daikin tout en offrant un entretien et un soutien CVC professionnels."
       },
       {
         "q": "Quels sont les avantages d'une chaudière électrique?",

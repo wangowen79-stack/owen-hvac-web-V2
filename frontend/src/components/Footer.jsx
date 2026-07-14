@@ -64,11 +64,14 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 style={{ color: 'white', fontSize: 14, fontWeight: 600, marginBottom: 14, fontFamily: 'var(--font-display)' }}>{t('footer.partners')}</h4>
-            <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', alignItems: 'center' }}>
-              {[IMG.partner1, IMG.partner2].map((p, i) => (
-                <img key={i} src={p} alt="Partner" style={{ height: 36, opacity: 0.6, filter: 'brightness(1.3)' }} />
-              ))}
+            <h4 style={{ color: 'white', fontSize: 14, fontWeight: 600, marginBottom: 14, fontFamily: 'var(--font-display)' }}>Daikin Comfort Pro</h4>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ background: 'white', borderRadius: 10, padding: '10px 14px' }}>
+                <img src={IMG.daikinLogo} alt="Daikin" style={{ height: 34, width: 150, objectFit: 'contain' }} />
+              </div>
+              <p style={{ fontSize: 13, lineHeight: 1.6, maxWidth: 220 }}>
+                Local Daikin heat pump installation and support for Nova Scotia homes.
+              </p>
             </div>
 
           </div>

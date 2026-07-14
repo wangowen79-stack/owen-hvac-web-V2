@@ -127,14 +127,17 @@ export default function HomePage() {
         </div>
       </section>
       <section style={{ padding: '44px 24px', background: 'var(--gray-50)', borderTop: '1px solid var(--gray-200)', borderBottom: '1px solid var(--gray-200)' }}>
-        <div style={{ maxWidth: 800, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 44, flexWrap: 'wrap' }}>
-          <span style={{ fontSize: 13, fontWeight: 500, color: 'var(--gray-400)' }}>Trusted Partners</span>
-          {[IMG.partner1, IMG.partner2].map((p, i) => (
-            <img key={i} src={p} alt="Partner" style={{ height: 44, opacity: 0.45, filter: 'grayscale(100%)', transition: 'all 0.3s' }}
-              onMouseEnter={e => { e.target.style.opacity = 1; e.target.style.filter = 'grayscale(0)'; }}
-              onMouseLeave={e => { e.target.style.opacity = 0.45; e.target.style.filter = 'grayscale(100%)'; }}
-            />
-          ))}
+        <div style={{ maxWidth: 980, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 34, flexWrap: 'wrap' }}>
+          <div style={{ background: 'white', border: '1px solid var(--gray-200)', borderRadius: 14, padding: '18px 26px', boxShadow: '0 10px 28px rgba(15,23,42,0.06)' }}>
+            <img src={IMG.daikinLogo} alt="Daikin" style={{ height: 50, width: 210, objectFit: 'contain' }} />
+          </div>
+          <div style={{ maxWidth: 500 }}>
+            <span style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue)', display: 'block', marginBottom: 8 }}>Daikin Comfort Pro</span>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 26, fontWeight: 700, color: 'var(--navy)', marginBottom: 8 }}>Focused on Daikin comfort solutions</h3>
+            <p style={{ fontSize: 15, lineHeight: 1.7, color: 'var(--gray-600)' }}>
+              Owen HVAC highlights Daikin heat pump systems for reliable, efficient home comfort, with local installation and support across Halifax, Dartmouth, and Nova Scotia.
+            </p>
+          </div>
         </div>
       </section>
 

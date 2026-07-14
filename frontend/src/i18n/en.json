@@ -9,31 +9,31 @@
     "bookService": "Book Service"
   },
   "hero": {
-    "badge": "Licensed & Certified HVAC Contractor",
+    "badge": "Daikin Comfort Pro Dealer",
     "title": "Keep Your Home",
     "titleHighlight": "Comfortable Year-Round",
-    "subtitle": "Professional HVAC maintenance, cleaning & repair for Halifax & Nova Scotia homes. Extend your system's lifespan and lower energy bills with regular expert care.",
+    "subtitle": "Daikin-focused heat pump installation, maintenance, cleaning and repair for Halifax and Nova Scotia homes. Improve comfort, efficiency, and year-round reliability with expert local care.",
     "cta1": "Book Maintenance",
     "cta2": "Our Services",
     "stat1num": "500+",
     "stat1label": "Homes Served",
     "stat2num": "100%",
     "stat2label": "Licensed",
-    "stat3num": "5★",
+    "stat3num": "5-Star",
     "stat3label": "Google Rated"
   },
   "services": {
     "overline": "What We Do",
     "title": "Our Services",
-    "subtitle": "Complete HVAC solutions for your home — from routine maintenance to emergency repair.",
+    "subtitle": "Complete home comfort solutions with a focus on Daikin heat pumps, maintenance, HRV, electrical, and emergency repair.",
     "maintenance": {
       "title": "HVAC Maintenance & Cleaning",
       "desc": "Annual tune-ups, deep cleaning for heat pumps, central AC, mini-splits, and furnaces. Keep your system running at peak efficiency.",
       "tag": "Most Popular"
     },
     "heatpump": {
-      "title": "Heat Pump",
-      "desc": "Installation, repair, and seasonal maintenance for all heat pump systems. Energy-efficient heating and cooling solutions."
+      "title": "Daikin Heat Pump",
+      "desc": "Daikin heat pump installation, repair, and seasonal maintenance for efficient year-round heating and cooling."
     },
     "boiler": {
       "title": "Electric Boiler",
@@ -103,10 +103,10 @@
     "area": "Halifax · Dartmouth · Nova Scotia"
   },
   "footer": {
-    "desc": "Professional HVAC maintenance, cleaning & repair in Halifax, Dartmouth & Nova Scotia. Your trusted partner for home comfort.",
+    "desc": "Professional Daikin heat pump, HVAC maintenance, cleaning and repair in Halifax, Dartmouth and Nova Scotia.",
     "links": "Quick Links",
     "contactTitle": "Contact",
-    "partners": "Partners",
+    "partners": "Daikin Comfort Pro",
     "copyright": "Owen HVAC Corp. All rights reserved."
   },
   "faq": {
@@ -122,7 +122,7 @@
       },
       {
         "q": "Do you service all brands of heat pumps?",
-        "a": "Yes. Our technicians are trained to work with all major brands including Daikin, LG, Tosot, Gree and more."
+        "a": "Yes. As a Daikin Comfort Pro dealer, we focus on Daikin heat pump systems while providing professional HVAC maintenance and support."
       },
       {
         "q": "What are the benefits of an electric boiler?",

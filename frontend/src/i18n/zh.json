@@ -9,31 +9,31 @@
     "bookService": "预约服务"
   },
   "hero": {
-    "badge": "持牌认证暖通承包商",
+    "badge": "Daikin Comfort Pro ???",
     "title": "让您的家",
     "titleHighlight": "四季舒适",
-    "subtitle": "为 Halifax 和 Nova Scotia 家庭提供专业暖通维护、清洁和维修服务。定期保养延长设备寿命，降低能源开支。",
+    "subtitle": "? Halifax ? Nova Scotia ????? Daikin ?????????????????????????????????",
     "cta1": "预约维护",
     "cta2": "查看服务",
     "stat1num": "500+",
     "stat1label": "服务家庭",
     "stat2num": "100%",
     "stat2label": "持牌资质",
-    "stat3num": "5★",
+    "stat3num": "5-Star",
     "stat3label": "Google 评分"
   },
   "services": {
     "overline": "服务项目",
     "title": "我们的服务",
-    "subtitle": "为您的家提供全方位暖通解决方案——从日常维护到紧急维修。",
+    "subtitle": "? Daikin ??????????????????HRV???????????",
     "maintenance": {
       "title": "暖通维护与清洁",
       "desc": "热泵、中央空调、壁挂式空调和炉子的年度调试与深度清洁。让您的设备始终高效运行。",
       "tag": "热门服务"
     },
     "heatpump": {
-      "title": "热泵服务",
-      "desc": "各类热泵系统的安装、维修和季节性维护。节能环保的冷暖解决方案。"
+      "title": "Daikin ??",
+      "desc": "Daikin ????????????????????????????"
     },
     "boiler": {
       "title": "电锅炉服务",
@@ -103,10 +103,10 @@
     "area": "Halifax · Dartmouth · Nova Scotia"
   },
   "footer": {
-    "desc": "Halifax、Dartmouth 和 Nova Scotia 地区专业暖通维护、清洁和维修服务。您值得信赖的家庭舒适伙伴。",
+    "desc": "Halifax?Dartmouth ? Nova Scotia ???? Daikin ???HVAC ???????????",
     "links": "快速链接",
     "contactTitle": "联系方式",
-    "partners": "合作伙伴",
+    "partners": "Daikin Comfort Pro",
     "copyright": "Owen HVAC Corp. 版权所有。"
   },
   "faq": {
@@ -122,7 +122,7 @@
       },
       {
         "q": "你们服务所有品牌的热泵吗？",
-        "a": "是的。我们的技术人员经过专业培训，可以服务所有主要品牌，包括大金（Daikin）、LG、TOSOT、格力（Gree）等。"
+        "a": "????? Daikin Comfort Pro ?????????? Daikin ??????????? HVAC ??????"
       },
       {
         "q": "电锅炉有什么优势？",

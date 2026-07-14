@@ -4,7 +4,7 @@ import { PageHero, SectionTitle, CTA } from '../components/ui';
 import IMG from '../images';
 
 const services = [
-  { icon: <ThermometerSun size={22} />, title: 'Heat Pump Maintenance', desc: 'Annual tune-up, refrigerant check, coil cleaning, filter replacement, and full performance test for all heat pump brands.' },
+  { icon: <ThermometerSun size={22} />, title: 'Daikin Heat Pump Maintenance', desc: 'Annual tune-up, refrigerant check, coil cleaning, filter replacement, and full performance test, with a focus on Daikin heat pump systems.' },
   { icon: <Fan size={22} />, title: 'Central AC Cleaning', desc: 'Comprehensive cleaning of evaporator and condenser coils, drain line flush, and system efficiency test.' },
   { icon: <Fan size={22} />, title: 'Mini-Split Deep Cleaning', desc: 'Professional dismantling and deep wash of indoor unit — heat exchanger, blower fan, drain pan, and filters.' },
   { icon: <Flame size={22} />, title: 'Furnace / Boiler Tune-Up', desc: 'Burner inspection, heat exchanger check, safety controls test, and filter replacement for oil and electric furnaces.' },
@@ -29,7 +29,7 @@ export default function MaintenancePage() {
 
       <section className="section">
         <div className="container">
-          <SectionTitle overline="What We Offer" title="Maintenance Services" subtitle="We service all major brands — Daikin, Mitsubishi, LG, Fujitsu, Carrier, and more." />
+          <SectionTitle overline="What We Offer" title="Maintenance Services" subtitle="Daikin-focused heat pump maintenance, cleaning, and repair for reliable year-round comfort." />
           <div ref={refSvc} style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 20 }}>
             {services.map((s, i) => (
               <div key={i} style={{
