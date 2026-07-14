@@ -48,8 +48,9 @@ export default function Navbar() {
               <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--gold)', lineHeight: 1.15 }}>A+ Rating</div>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.6)', whiteSpace: 'nowrap' }}>BBB Accredited</div>
             </div>
-            <div style={{ background: 'white', borderRadius: 8, padding: '7px 10px', marginLeft: 8 }}>
-              <img src={IMG.daikinLogo} alt="Daikin Comfort Pro" style={{ height: 28, width: 124, objectFit: 'contain' }} />
+            <div style={{ display: 'flex', alignItems: 'center', gap: 6, background: 'white', borderRadius: 8, padding: 5, marginLeft: 8 }}>
+              <img src={IMG.daikinDesignPro} alt="Daikin Design Pro Ductless" style={{ height: 54, width: 54, objectFit: 'contain' }} />
+              <img src={IMG.daikinComfortPro} alt="Daikin Comfort Pro" style={{ height: 54, width: 54, objectFit: 'contain' }} />
             </div>
           </a>
         </div>
